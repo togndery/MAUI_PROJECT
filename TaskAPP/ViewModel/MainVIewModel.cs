@@ -25,7 +25,7 @@ namespace TaskAPP.ViewModel
         [ObservableProperty]
          string text;
        
-
+        //use relay command to check intrent
         [RelayCommand]
         async Task Add()
         {
